@@ -2,7 +2,7 @@ Download and save in `~/Library/Scripts` as `wifi-toggle.sh` (any name will work
 
 You need to open the script and change the `ETHERNET_REGEX` variable to match the name of your ethernet device. You can find the name of your device by running `networksetup -listnetworkserviceorder`. Your ethernet device name is the text after number in parenthesis (eg. for `(2) CalDigit TS3` use the ethernet device name `CalDigit TS3`).
 
-Run `wifi-toggle.sh` on and it will install a launchd service in `~/Library/LaunchAgents`.
+Run `~/Library/Scripts/wifi-toggle.sh on` and it will install a launchd service in `~/Library/LaunchAgents`.
 
 Now ...
 
